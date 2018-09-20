@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html><head>
+<style> 
+.one {
+    width: 100px;
+    height: 100px;
+    background-color: skyblue;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+}
+@keyframes example {
+    0%   {transform:translate(0px,0px);}
+    25%  {transform:translate(200px,0px);}
+    50%  {transform:translate(200px,200px);}
+    75%  {transform:translate(0px,200px);}
+    100% {transform:translate(0px,0px);}
+}
+</style></head>
+<body>
+<div class="one"></div>
+</body>
+</html>
